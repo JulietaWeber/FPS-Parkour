@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 6923406320514210981}
   - component: {fileID: 1661905381494669082}
   - component: {fileID: 6462092753673948492}
+  - component: {fileID: 114073597550813290}
   m_Layer: 0
   m_Name: BarrilPrefab
   m_TagString: Untagged
@@ -78,6 +79,18 @@ CapsuleCollider:
   m_Height: 3.96
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &114073597550813290
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3700867237835172296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6df4e411c5f602e47a3116346b571f24, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &6018583615050183909
 PrefabInstance:
   m_ObjectHideFlags: 0
