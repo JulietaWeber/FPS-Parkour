@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 585af7810d6bf674a8ed9d6fa5caa7cf
+guid: 3f9bd61437fbe9a428443c6e7b04cee7
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -7,18 +7,18 @@ ModelImporter:
     100002: Columna 6x0.002
     100004: Columna 6x0.004
     100006: Columna 6x0.3
-    100008: Plataforma 4x4
-    100010: Plataforma 4x4.001
-    100012: Plataforma 4x4.002
-    100014: //RootNode
+    100008: //RootNode
+    100010: Plataforma 4x4
+    100012: Plataforma 4x4.001
+    100014: Plataforma 4x4.002
     400000: Columna 6x0.001
     400002: Columna 6x0.002
     400004: Columna 6x0.004
     400006: Columna 6x0.3
-    400008: Plataforma 4x4
-    400010: Plataforma 4x4.001
-    400012: Plataforma 4x4.002
-    400014: //RootNode
+    400008: //RootNode
+    400010: Plataforma 4x4
+    400012: Plataforma 4x4.001
+    400014: Plataforma 4x4.002
     2100000: Tornillo
     2100002: Madera_tablas
     2100004: Madera-Columna
@@ -48,17 +48,27 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Madera-Columna
-    second: {fileID: 2100000, guid: eb3a477c4621d574695a626796375188, type: 2}
+    second: {fileID: 2100000, guid: 2e3b454e454d64646ae412da151c56ba, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Madera_tablas
-    second: {fileID: 2100000, guid: 3d1737948e2b5b84d9dfcdbf113ed51f, type: 2}
+    second: {fileID: 2100000, guid: 6cf7cd6386363d4418d7dc034cc2531a, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Tornillo
-    second: {fileID: 2100000, guid: 7a3250b1fe6f5d4489da70402a412639, type: 2}
+    second: {fileID: 2100000, guid: e51b8744c77aa494e8e2291dafa3ae59, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: TexturesCom_WoodRough0089_1_seamless_S
+    second: {fileID: 2800000, guid: b7177e7bcc5f8fd42a4a50af4bc3bdd3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: rough_wood_diff_1k
+    second: {fileID: 2800000, guid: f5df2e9e9fe48a1498c6e0ae97de18a3, type: 3}
   materials:
     importMaterials: 1
     materialName: 0
