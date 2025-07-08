@@ -1,18 +1,24 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
-public class HealthUI : MonoBehaviour
+public class UIHealth : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public TextMeshProUGUI Txthealth;
+    public EnemyHealth enemyhealth;
+    public HealthManager healthManager;
+
     void Start()
     {
-        
+        healthManager = FindObjectOfType<HealthManager>();
     }
 
-    // Update is called once per frame
-    void Update()
+    public void UpdateHealthUI (string healthAmount)
     {
-        
+        Txthealth.text = healthAmount;
     }
+
+   
+
 }
