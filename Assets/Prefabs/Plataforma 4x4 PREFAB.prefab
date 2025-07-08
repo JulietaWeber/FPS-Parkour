@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2167810087330117333}
+  - component: {fileID: 65438891050464620}
   m_Layer: 0
   m_Name: Plataforma 4x4 PREFAB
   m_TagString: Untagged
@@ -31,6 +32,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &65438891050464620
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 85193488944137252}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &7927485503850310983
 GameObject:
   m_ObjectHideFlags: 0
@@ -42,6 +56,7 @@ GameObject:
   - component: {fileID: 7927485503850017127}
   - component: {fileID: 7927485503853408581}
   - component: {fileID: 7927485503852311429}
+  - component: {fileID: 8042138436699234442}
   m_Layer: 0
   m_Name: Plataforma
   m_TagString: Untagged
@@ -109,3 +124,16 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &8042138436699234442
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7927485503850310983}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4, y: 0.48542207, z: 4}
+  m_Center: {x: -0.00616771, y: -0.18791938, z: -0.0062084794}

@@ -75,10 +75,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 1.77
-  m_Height: 3.96
+  m_Radius: 0.8335629
+  m_Height: 2.4685953
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Center: {x: 0.037561834, y: -0.023548933, z: 0}
 --- !u!114 &114073597550813290
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -91,6 +91,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6df4e411c5f602e47a3116346b571f24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  precio: 10
+  dineroManager: {fileID: 0}
 --- !u!1001 &6018583615050183909
 PrefabInstance:
   m_ObjectHideFlags: 0
