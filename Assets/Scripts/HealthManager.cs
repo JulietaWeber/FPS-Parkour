@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class HealthManager : MonoBehaviour
 {
     public float playerHealth;
-    public UIHealth uiHealth;
+    public HealthUI uiHealth;
 
     void Start()
     {
