@@ -10,8 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 8780657818523938766}
   - component: {fileID: 9043834855957406407}
-  - component: {fileID: 1409636493}
   - component: {fileID: 114517474218386346}
+  - component: {fileID: 7245332991546106961}
+  - component: {fileID: 1484901828538817365}
   m_Layer: 0
   m_Name: CajaPrefab
   m_TagString: Untagged
@@ -50,19 +51,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!65 &1409636493
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7835752842253393268}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 2, y: 2, z: 2}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &114517474218386346
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -77,6 +65,34 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   danger: 10
   healthManager: {fileID: 0}
+--- !u!64 &7245332991546106961
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7835752842253393268}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 0}
+--- !u!136 &1484901828538817365
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7835752842253393268}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 1.1927509
+  m_Height: 2.3855019
+  m_Direction: 1
+  m_Center: {x: -0.07150221, y: -0.44862103, z: -0.007649064}
 --- !u!1001 &8062489516958948206
 PrefabInstance:
   m_ObjectHideFlags: 0
