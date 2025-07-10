@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 170076734}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2778,7 +2778,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: $
+  m_text: Plata
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2847,7 +2847,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 1069933656}
-    characterCount: 1
+    characterCount: 5
     spriteCount: 0
     spaceCount: 0
     wordCount: 1
@@ -2890,6 +2890,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25bad640fdf65c54ebfa1b8f03e04a7f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dineroManager: {fileID: 1560480401}
   txtPrecio: {fileID: 1069933656}
 --- !u!4 &1069948153 stripped
 Transform:
@@ -3999,6 +4000,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99fd97912585a1b4a8f7325c36837196, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerHealth: 100
+  uiHealth: {fileID: 0}
 --- !u!1001 &1560918127
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4605,6 +4608,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25bad640fdf65c54ebfa1b8f03e04a7f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dineroManager: {fileID: 0}
   txtPrecio: {fileID: 0}
 --- !u!1001 &1724831462
 PrefabInstance:
@@ -5490,6 +5494,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 269b6738ce95c6147b89da73ab23f39c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Txthealth: {fileID: 2027075143}
+  enemyhealth: {fileID: 0}
+  healthManager: {fileID: 1560480402}
 --- !u!114 &2027075143
 MonoBehaviour:
   m_ObjectHideFlags: 0
