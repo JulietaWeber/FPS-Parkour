@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 8143369234483308469}
   - component: {fileID: 6923406320514210981}
   - component: {fileID: 1661905381494669082}
-  - component: {fileID: 6462092753673948492}
   - component: {fileID: 114073597550813290}
   m_Layer: 0
   m_Name: BarrilPrefab
@@ -65,20 +64,6 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: 52d34932ea4bb0746b6e9856bad96e54, type: 3}
---- !u!136 &6462092753673948492
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3700867237835172296}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 1.008108
-  m_Height: 2.4240084
-  m_Direction: 1
-  m_Center: {x: 0.10519086, y: -0.1872608, z: 0.10921303}
 --- !u!114 &114073597550813290
 MonoBehaviour:
   m_ObjectHideFlags: 0

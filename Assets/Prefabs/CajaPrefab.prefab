@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 8780657818523938766}
   - component: {fileID: 9043834855957406407}
   - component: {fileID: 114517474218386346}
-  - component: {fileID: 7245332991546106961}
-  - component: {fileID: 1484901828538817365}
+  - component: {fileID: 183256789}
+  - component: {fileID: 1285464745875677412}
   m_Layer: 0
   m_Name: CajaPrefab
   m_TagString: Untagged
@@ -65,7 +65,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   danger: 10
   healthManager: {fileID: 0}
---- !u!64 &7245332991546106961
+--- !u!64 &183256789
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -78,9 +78,9 @@ MeshCollider:
   serializedVersion: 3
   m_Convex: 1
   m_CookingOptions: 14
-  m_Mesh: {fileID: 0}
---- !u!136 &1484901828538817365
-CapsuleCollider:
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!65 &1285464745875677412
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -89,10 +89,9 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 1.1927509
-  m_Height: 2.3855019
-  m_Direction: 1
-  m_Center: {x: -0.07150221, y: -0.44862103, z: -0.007649064}
+  serializedVersion: 2
+  m_Size: {x: 1.8594975, y: 2.1494007, z: 2.092684}
+  m_Center: {x: -0.0805856, y: 0.08516216, z: 0.0025349855}
 --- !u!1001 &8062489516958948206
 PrefabInstance:
   m_ObjectHideFlags: 0
